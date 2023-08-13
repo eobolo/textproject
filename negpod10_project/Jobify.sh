@@ -44,6 +44,8 @@ do
 		echo "ENTER AN OPTION, 1 to create account, 2 to login, 3 to recover password, 4 to log-out."
 		read -r OPTION
 	else
+		echo "Exiting app ..."
+		sleep 1
 		exit 0
 	fi
 done

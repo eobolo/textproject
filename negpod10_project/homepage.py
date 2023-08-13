@@ -10,40 +10,38 @@ log out.
 
 
 import time
+import subprocess
 
 
 def messages():
     message1 = "Welcome to Jobify"
     message2 = "The home of connecting Employers to Employees and"
     message3 = "Vice-versa."
-    option1 = "Press 1 to apply for job."
-    option2 = "Press 2 to search for job."
-    option3 = "Press 3 to update profile."
-    option4 = "Press 4 to log out."
+    option1 = "Press 1 to search, save, and apply for jobs as employee."
+    option2 = "Press 2 to update profile either as employee or employer."
+    option3 = "Press 3 to log out."
     print("{:^135}".format(message1))
     print("{:^135}".format(message2))
     print("{:^133}".format(message3))
-    print("{:^133}".format(option1))
+    print("{:^134}".format(option1))
     print("{:^135}".format(option2))
-    print("{:^135}".format(option3))
-    print("{:^128}".format(option4))
+    print("{:^98}".format(option3))
 
 
 def options():
     message = "Enter your option here: "
-    print("{:^110}".format(message))
+    print("{:^102}".format(message))
     while True:
         option = int(input())
         if option == 1:
-            print("Feature in development")
-            print("Enter 4 to log out")
+            subprocess.run(["/usr/bin/python3", "search&save.py"])
+            print("Enter 1 to search, save and apply jobs\nEnter 2 \
+to update profile,\nlastly Enter 3 to log out.")
         elif option == 2:
-            print("Working in progress (WIP).")
-            print("Enter 4 to log out")
+            subprocess.run(["/usr/bin/python3", "update_details.py"])
+            print("Enter 1 to search, save and apply jobs\nEnter 2 \
+to update profile,\nlastly Enter 3 to log out.")
         elif option == 3:
-            print("Coming Soon.")
-            print("Enter 4 to log out")
-        elif option == 4:
             try:
                 raise SystemExit("Preparing to log out.")
             except SystemExit as systemexit:
