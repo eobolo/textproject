@@ -24,7 +24,7 @@ The Apache Log File Regex Project is a Ruby-based utility designed to parse and 
 
 2. cd /path/to/clonedgitrepo/LogRegexToolkit
 
-# *There are 2 ways to run the code*
+# **There are 2 ways to run the code**
 # 1
 # **Run the script with the desired log file and data type as command-line arguments:**
 
@@ -33,7 +33,7 @@ The Apache Log File Regex Project is a Ruby-based utility designed to parse and 
 Replace /path/to/your/log/file.log with the path to your Apache log file, followed by any of this option of arguement (e.g. ipaddress, timestamp, httpmethod, statuscode, responsesize).
 
 # 2
-# *Run the script and follow the basic user interface*
+# **Run the script and follow the basic user interface**
 
 ./regex.rb
 
@@ -42,4 +42,5 @@ Replace /path/to/your/log/file.log with the path to your Apache log file, follow
 # **Contact**
 
 [OBOLO EMMANUEL OLUWAPELUMI]
+
 [e.obolo@alustudent.com]
