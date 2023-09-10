@@ -25,10 +25,7 @@ The Apache Log File Regex Project is a Ruby-based utility designed to parse and 
 2. cd /path/to/clonedgitrepo/LogRegexToolkit
 
 # **Running the script**
-
-There are 2 steps involved in running this application
 1. ./create_session - this help create a session
-2. run - this runs the program
 
 # **Follow the on-screen prompts to view or save the extracted data.**
 

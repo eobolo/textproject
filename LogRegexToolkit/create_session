@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-alias run="/textproject/LogRegexToolkit/logregexshell"
+source logregexshell
