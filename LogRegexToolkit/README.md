@@ -20,7 +20,7 @@ The Apache Log File Regex Project is a Ruby-based utility designed to parse and 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/textproject.git
+   git clone https://github.com/eobolo/textproject.git
 
 2. cd /path/to/clonedgitrepo/LogRegexToolkit
 
