@@ -1,0 +1,81 @@
+/* clearing floats*/
+/*
+header {
+    float: left;
+}
+.section_container {
+    clear: both;
+}
+.first {
+    float: left;
+}
+.first h1 {
+    background-color: green;
+    color: white;
+}
+.second {
+    float: right;
+    margin-top: 1px;
+}
+.second h1 {
+    background-color: green;
+    color: white;
+}
+.third {
+    clear: both;
+    float: left;
+}
+.third h1 {
+    background-color: blue;
+    color: brown;
+}
+.fourth {
+    float: right;
+    margin-top: 0px;
+}
+.fourth h1 {
+    background-color: blue;
+    color: yellow;
+}
+footer {
+    clear: both;
+}
+*/
+
+/*containing floats*/
+
+/*there is a syntax for doing this*/
+/*
+.parent_element_class_value:before,
+.parent_element_class_value:after {
+  content: "";
+  display: table;
+}
+.parent_element_class_value:after {
+  clear: both;
+}
+.parent_element_class_value {
+  clear: both;
+  *zoom: 1;
+}
+elements in a parent element that you want to float
+*/
+
+.first:before,
+.first:after {
+    content: "";
+    display: table;
+}
+.first:after {
+    clear: both;
+}
+.first {
+    clear: both;
+    *zoom: 1;
+}
+.first h1#first {
+    float: left;
+}
+.first h1#second {
+    float: right;
+}

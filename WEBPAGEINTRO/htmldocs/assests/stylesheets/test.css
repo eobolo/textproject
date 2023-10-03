@@ -1,0 +1,77 @@
+/* positioning with floats*/
+
+/*.headers {
+    float: right;
+    background-color: red;
+    width: 300px;
+}
+h3 {
+    float: inherit;
+}
+.position_2 {
+    float: initial;
+}
+.position_3 {
+    float: revert;
+}
+.position_4 {
+    margin-top: -42px;
+    background-color: blue;
+}
+.structure_1 {
+    background-color: blue;
+    width: 300px;
+}
+.structure_2 {
+    display: inline-block;
+    background-color: purple;
+}
+*/
+header {
+    background-color: green;
+    height: 100px;
+    margin-bottom: 40px;
+}
+header h1 {
+    background-color: blue;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40%;
+    width: 165px;
+}
+
+.section_container {
+    display: flex;
+    margin-bottom: 30px;
+}
+.first {
+    flex: 1;
+    background-color: green;
+    margin-right: 30px;
+    padding-left: 5%;
+}
+.second {
+    flex: 1;
+    background-color: green;
+    padding-left: 5%;
+}
+.third {
+    flex: 1;
+    background-color: green;
+    margin-left: 30px;
+    padding-left: 5%;
+}
+.section_container h1 {
+   color: white;
+}
+
+footer {
+    background-color: green;
+    height: 100px;
+}
+footer h1 {
+    color: red;
+    float: left;
+    margin-left: 40%;
+    margin-top: 30px;
+}
